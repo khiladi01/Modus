@@ -9,55 +9,55 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="mt-5 min-h-20 w-full flex justify-center items-center border-0 px-4">
-        <div className="min-h-full w-full max-w-7xl border-0 rounded-tl-3xl rounded-tr-3xl bg-gradient-to-b from-[#00b3b37a] flex flex-col md:flex-row justify-between items-center pt-5 pl-4 pr-4 md:pl-8 md:pr-8 gap-5">
+      <div className="mt-5 h-20 w-full flex justify-center items-center border-0">
+        <div className="h-full w-375 border-0 rounded-tl-3xl rounded-tr-3xl bg-gradient-to-b from-[#00b3b37a] flex justify-between items-center pt-5 pl-8 pr-8 gap-5">
           {/* title */}
-          <div className="flex-shrink-0">
-            <p className="text-2xl md:text-4xl font-normal uppercase tracking-wide">
+          <div>
+            <p className="text-4xl font-normal uppercase tracking-wide">
               modus
             </p>
           </div>
           {/* links */}
-          <div className="flex flex-wrap justify-center items-center gap-2 md:gap-5">
+          <div className="flex justify-center items-center gap-5">
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Home
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
-              Our Platform <span className="text-xs md:text-sm font-extrabold">⌵</span>
+              Our Platform <span className="text-sm font-extrabold">⌵</span>
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Our Services
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Our Offering
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Industry Solutions{" "}
-              <span className="text-xs md:text-sm font-extrabold">⌵</span>
+              <span className="text-sm font-extrabold">⌵</span>
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Our Experiences
             </Link>
             <Link
-              className="p-1 text-sm md:text-base font-medium hover:bg-white rounded-md"
+              className="p-1 font-medium hover:bg-white rounded-md"
               href="/"
             >
               Contact
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           {/* language & login */}
           <div className="flex justify-center items-center gap-2">
-            <select className="w-32 md:w-50 h-5 text-xs md:text-sm border" name="" id="">
+            <select className="w-50 h-5 text-sm border" name="" id="">
               <option value="0">Select Language</option>
               <option value="1">Afrikaans</option>
               <option value="2">Arabic</option>
@@ -105,7 +105,7 @@ export default function Home() {
             </select>
             <Link
               href="#"
-              className="p-2 md:p-3 w-20 md:w-27 text-white font-medium flex justify-center border-0 bg-[#008282] rounded-lg text-sm md:text-base"
+              className="p-3 w-27 text-white font-medium flex justify-center border-0 bg-[#008282] rounded-lg"
             >
               Login
             </Link>
@@ -113,29 +113,29 @@ export default function Home() {
         </div>
       </div>
       {/* hero */}
-      <div className="h-auto w-full grid place-content-center gap-5 px-4">
+      <div className="h-auto w-full grid place-content-center gap-5">
 
         {/* first div */}
-        <div className="mt-20 md:mt-40 min-h-142.5 w-full max-w-4xl border-0 grid place-content-center gap-10">
+        <div className="mt-40 h-142.5 w-375 border-0 grid place-content-center gap-10">
           {/* adding main text one */}
           <div className="w-full flex justify-center items-center">
-          <section className="w-full max-w-2xl text-center px-4">
-            <p className="text-3xl md:text-6xl font-semibold bg-gradient-to-r from-black via-[#008282] to-black bg-clip-text text-transparent">Operational & Cybersecurity AI Capability Modelling</p>
+          <section className="w-250 text-center">
+            <p className="text-6xl font-semibold bg-gradient-to-r from-black via-[#008282] to-black bg-clip-text text-transparent">Operational & Cybersecurity AI Capability Modelling</p>
           </section>
         </div>
           {/* adding text two */}
           <div className="w-full flex justify-center items-center mt-10">
-            <section className="min-h-44 w-full max-w-xl text-center px-4">
-            <p className="text-xl md:text-[30px] font-semibold">
+            <section className="h-44 w-190 text-center">
+            <p className="text-[30px] font-semibold">
               In the AI era, leading organisations no longer see their Operating Model as a static set of processes.
-              They view it as living, learning, adaptive system - one that contiuously senses, predicts, protects, and evolves.
+              They view it as living, learning, adaptive system - one that contiuously senses, predicts, protects, and evolves. 
             </p>
           </section>
           </div>
           {/* adding text three */}
           <div className="w-full flex justify-center items-center mt-10">
-            <section className="min-h-20 w-full max-w-2xl text-center px-4">
-            <p className="text-base md:text-lg font-normal">
+            <section className="h-20 w-300 text-center">
+            <p className="text-lg font-normal">
               Modus AI Capability Modelling unifies Operational Ai and Cybersecurity AI to create this next - generation foundation, helping enterprises redesign how work truly gets done
             </p>
           </section>
@@ -143,13 +143,13 @@ export default function Home() {
         </div>
 
         {/* second div video */}
-        <div className="min-h-screen w-full border-0 grid place-content-center gap-5 overflow-hidden px-4">
-             <section className="w-full max-w-4xl aspect-video flex justify-center items-center">
+        <div className="h-screen w-full border-0 grid place-content-center gap-5 overflow-hidden">
+             <section className="w-300 h-screen flex justify-center items-center">
               {/* adding video */}
               <iframe
               src="https://www.youtube.com/embed/JxGFz2xmBdg"
               title="Executive Overview Video"
-              className="w-full h-full rounded-lg"
+              className="w-full h-full"
               // frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
@@ -202,26 +202,26 @@ export default function Home() {
 </div>
 
       {/* fourth div */}
-      <div className="w-full min-h-280 grid place-content-center gap-8 md:gap-12 mt-20 px-4">
+      <div className="w-full h-280 grid place-content-center gap-12 mt-20">
 
   {/* Title */}
   <section className="w-full text-center">
-    <p className="text-4xl md:text-6xl font-semibold text-[#008282] tracking-tight">
+    <p className="text-6xl font-semibold text-[#008282] tracking-tight">
       Unlocking the Future of Intelligent Operations
     </p>
   </section>
 
   {/* Statement */}
   <section className="w-full text-center">
-    <p className="text-xl md:text-3xl font-semibold text-[#003d3d]">
+    <p className="text-3xl font-semibold text-[#003d3d]">
       AI is not a tool. It is an operating capability.
     </p>
   </section>
 
   {/* Core Explanation */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl text-center px-4">
-      <p className="text-base md:text-lg font-normal text-gray-700 leading-relaxed">
+    <section className="w-[1100px] text-center">
+      <p className="text-lg font-normal text-gray-700 leading-relaxed">
         Most organisations have adopted AI in isolated pockets — process automation
         in one area, predictive models in another. However, sustainable value is only
         realised when AI is embedded <b>end-to-end across the value chain</b>, and when
@@ -232,8 +232,8 @@ export default function Home() {
 
   {/* Reference Insight */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl text-center px-4">
-      <p className="text-base md:text-lg font-normal text-gray-700 leading-relaxed">
+    <section className="w-[1100px] text-center">
+      <p className="text-lg font-normal text-gray-700 leading-relaxed">
         <b>From the reference material:</b> Operational AI enhances efficiency, insight,
         and decision precision, while Cybersecurity AI safeguards these advances by
         securing data, anticipating threats, and preserving trust across the value chain.
@@ -243,8 +243,8 @@ export default function Home() {
 
   {/* Lead-in */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl text-center px-4">
-      <p className="text-base md:text-lg font-medium text-[#003d3d]">
+    <section className="w-[1100px] text-center">
+      <p className="text-lg font-medium text-[#003d3d]">
         Together, they create an operating model that is:
       </p>
     </section>
@@ -252,8 +252,8 @@ export default function Home() {
 
   {/* Capability List */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-3xl px-4">
-      <ul className="list-disc pl-6 md:pl-8 text-base md:text-lg text-gray-800 leading-relaxed">
+    <section className="w-[900px]">
+      <ul className="list-disc pl-8 text-lg text-gray-800 leading-relaxed">
         <li><b>Adaptive:</b> Continuously learning and optimising performance</li>
         <li><b>Transparent:</b> Delivering clarity across decisions and operations</li>
         <li><b>Secure:</b> Protecting data, processes, and trust by design</li>
@@ -265,8 +265,8 @@ export default function Home() {
 
   {/* Closing Statement */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl text-center px-4">
-      <p className="text-base md:text-lg font-medium text-[#003d3d]">
+    <section className="w-[1100px] text-center">
+      <p className="text-lg font-medium text-[#003d3d]">
         AI is not a tool. It is an operating capability.
       </p>
     </section>
@@ -326,12 +326,12 @@ export default function Home() {
 </div>
 
       {/* sixth div */}
-      <div className="w-full min-h-screen grid gap-8 md:gap-10 place-content-center px-4">
+      <div className="w-full h-screen grid gap-10 place-content-center">
 
   {/* Title */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl px-4">
-      <p className="text-3xl md:text-5xl font-semibold text-[#008282] text-center leading-tight">
+    <section className="w-[1100px]">
+      <p className="text-5xl font-semibold text-[#008282] text-center leading-tight">
         AI Capability Types: Descriptions and Applications of Operational & Cybersecurity AI
         in Investment Banking
       </p>
@@ -340,71 +340,95 @@ export default function Home() {
 
   {/* Table */}
   <div className="w-full flex justify-center">
-    <section className="w-full max-w-4xl overflow-x-auto">
-      <table className="w-full min-w-[600px] border border-gray-300 bg-white text-left">
+    <section className="overflow-x-auto">
+      <table className="w-[1100px] border border-gray-300 bg-white text-left">
         <thead>
           <tr className="h-14">
-            <th className="border border-gray-300 bg-[#008282] text-white px-4 text-sm md:text-base">
+            <th className="border border-gray-300 bg-[#008282] text-white px-4">
               AI Capability Type
             </th>
-            <th className="border border-gray-300 bg-[#008282] text-white px-4 text-sm md:text-base">
+            <th className="border border-gray-300 bg-[#008282] text-white px-4">
               Description
             </th>
           </tr>
         </thead>
 
         <tbody className="text-gray-800">
-          <tr className="min-h-20">
-            <th className="border border-gray-300 px-4 font-medium text-sm md:text-base">
+          <tr className="h-20">
+            <th className="border border-gray-300 px-4 font-medium">
               Perceptive AI
             </th>
-            <td className="border border-gray-300 px-4 text-sm md:text-base">
+            <td className="border border-gray-300 px-4">
               Detects, senses, and interprets the environment through data, vision,
               sound, or signals—transforming raw inputs into actionable insights.
             </td>
           </tr>
 
-          <tr className="min-h-20 bg-gray-50">
-            <th className="border border-gray-300 px-4 font-medium text-sm md:text-base">
+          <tr className="h-20 bg-gray-50">
+            <th className="border border-gray-300 px-4 font-medium">
               Predictive AI
             </th>
-            <td className="border border-gray-300 px-4 text-sm md:text-base">
+            <td className="border border-gray-300 px-4">
               Anticipates future outcomes using historical data, statistical models,
               and machine learning to forecast risks, trends, and opportunities.
             </td>
           </tr>
 
-          <tr className="min-h-20">
-            <th className="border border-gray-300 px-4 font-medium text-sm md:text-base">
+          <tr className="h-20">
+            <th className="border border-gray-300 px-4 font-medium">
               Prescriptive AI
             </th>
-            <td className="border border-gray-300 px-4 text-sm md:text-base">
+            <td className="border border-gray-300 px-4">
               Recommends optimal actions by simulating multiple scenarios and outcomes,
               supporting smarter, safer, and more efficient decision-making.
             </td>
           </tr>
 
-          <tr className="min-h-20 bg-gray-50">
-            <th className="border border-gray-300 px-4 font-medium text-sm md:text-base">
+          <tr className="h-20 bg-gray-50">
+            <th className="border border-gray-300 px-4 font-medium">
               Cognitive AI
             </th>
-            <td className="border border-gray-300 px-4 text-sm md:text-base">
+            <td className="border border-gray-300 px-4">
               Understands, reasons, and communicates using natural language and
               contextual intelligence—enabling human-like dialogue and analysis.
             </td>
           </tr>
 
-          <tr className="min-h-20">
-            <th className="border border-gray-300 px-4 font-medium text-sm md:text-base">
+          <tr className="h-20">
+            <th className="border border-gray-300 px-4 font-medium">
               Autonomous AI
             </th>
-            <td className="border border-gray-300 px-4 text-sm md:text-base">
+            <td className="border border-gray-300 px-4">
               Operates independently with minimal human intervention, continuously
               learning to self-adjust, self-heal, and execute tasks safely.
             </td>
           </tr>
 
-          <tr className="min-h-20 bg-gray-50">
+          <tr className="h-20 bg-gray-50">
+            <th className="border border-gray-300 px-4 font-medium">
+              Generative AI
+            </th>
+            <td className="border border-gray-300 px-4">
+              Creates original content such as text, code, images, designs, or models
+              by learning patterns from existing data.
+            </td>
+          </tr>
+
+          <tr className="h-20">
+            <th className="border border-gray-300 px-4 font-medium">
+              Agentic AI
+            </th>
+            <td className="border border-gray-300 px-4">
+              Coordinates multiple AI agents or systems to achieve complex, multi-step
+              objectives across dynamic environments.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+</div>
 
       {/* seventh div */}
       <div className="h-screen w-full mt-20 grid gap-10 place-content-center">
@@ -710,7 +734,7 @@ export default function Home() {
 
 
       {/* eleventh div */}
-      <div className="h-auto w-full grid gap-10 mt-15">
+      <div className="w-full h-auto grid gap-10 mt-15">
         {/* title */}
            <div className="w-full flex justify-center items-center">
           <section>
@@ -831,4 +855,3 @@ export default function Home() {
     </>
   );
 }
-                                                                                                                                              
