@@ -1,0 +1,14 @@
+- [x] Make header/navigation responsive: stack vertically on mobile, adjust widths
+- [x] Hero section: replace fixed widths with responsive classes, scale text
+- [x] Video sections: make iframes responsive
+- [x] Third div: adjust widths and text sizes
+- [x] Fourth div: make responsive
+- [x] Fifth div: adjust layout
+- [x] Sixth div (table): make horizontally scrollable on mobile
+- [x] Seventh div: responsive widths
+- [x] Eighth div: adjust sections
+- [x] Ninth div: responsive image and text
+- [x] Tenth div: adjust
+- [x] Eleventh div: responsive
+- [x] Twelfth div (video): responsive
+- [x] Thirteenth div: final adjustments
